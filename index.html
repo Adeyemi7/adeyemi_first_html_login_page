@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my html page</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        overflow: hidden;
+    }
+</style>
+<body>
+    <form action=""  class="container"  method="post">
+ 
+        <h1> YOUR BASIC BIO INFO</h1>
+
+        <article>
+            <label for="name">NAME: </label>
+            <input type="text" placeholder="First Name"  >
+
+            <br><br>
+
+            <label for="name">EMAIL: </label>
+            <input type="email" placeholder="e.g jesuschrist@gmail.com" required ="">
+
+            <br><br>
+
+            <label for="name">PASSWORD: </label>
+            <input type="password" placeholder="e.g Adeyemi123" maxlength="8">
+
+            <br><br>
+
+            <label for="age"> AGE</label>
+            <br>
+
+            <input type="radio"> Under 16
+            <br>
+
+            <input type="radio"> 16 or Older
+            <br>
+
+            <h1> Your Profile </h1>
+
+            <label for="bio"> Biography</label>
+            <br>
+            <textarea name="info" id="write_ups" cols="30" rows="2" style="border:white ;"></textarea>
+            <br><br>
+
+            <label for="courses"> Select Courses</label>
+            <select list="courses" name="courses" class="courses">
+
+            <optgroup>
+                <option value="Engineering">Electrical & Electronics Engineering</option>
+                <option value=" Chemical"> Chemical Engineering</option>
+                <option value=" Petroleum"> Petroleum Engineering</option>
+                <option value=" Software"> Software Engineering</option>
+                <option value=" Mechanical"> Mechanical Engineering</option>
+                <option value=" ae"> Aeronautic Engineering</option>
+            </optgroup>
+
+            </select>
+
+            <br> <br>
+
+            <label for="intereat"> Interest:</label>
+            <br>
+
+            <input type="checkbox" name="Engineering" id=" Engineering"> Engineering
+            <br>
+            <input type="checkbox" name=" Business" id="Business"> Business
+            <br>
+            <input type="checkbox" name=" Law" id=" Law"> Law
+
+            <br><br>
+
+            <button class="submit" type="reset"  style="background-color: blue; color: white; width: 15em; border-radius: 5px; border: blue;" > Submit</button>
+        </article>
+
+    </form>
+</body>
+</html>
